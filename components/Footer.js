@@ -19,8 +19,8 @@ function Footer() {
         <Link href="/products">
           <a className={style.footerLink}>Products</a>
         </Link>
-        <Link href="/contact">
-          <a className={style.footerLink}>Contact us</a>
+        <Link href="/blog">
+          <a className={style.footerLink}>Blog</a>
         </Link>
         <Link href="/about">
           <a className={style.footerLink}>About</a>

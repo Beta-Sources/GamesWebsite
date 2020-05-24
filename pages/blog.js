@@ -1,7 +1,7 @@
 import { Container, Jumbotron } from "react-bootstrap";
 import NavBar from "../components/welcomeNav";
 import Footer from "../components/Footer";
-import OurOffice from "../components/Our-office";
+import Tabs from "../components/Tabs";
 import style from "../styles/Contact.module.scss";
 
 
@@ -12,7 +12,7 @@ const Contact = () => {
       <Jumbotron className="coverGamesPage">
         <h1 className="contactTitle"> Parties Project for Learning Purposes </h1>
       </Jumbotron>
-      <OurOffice />
+      <Tabs />
       <Footer />
       <style global jsx>{`
       .coverGamesPage{

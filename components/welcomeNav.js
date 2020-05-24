@@ -37,7 +37,7 @@ const WelcomeNav = (props) => {
               <Link href="/products" ><span style={{fontWeight: "600"}}>Products</span></Link>
             </Nav.Link>
              <Nav.Link  style={{ color: "#fff" }}>
-              <Link href="/contact"  ><span style={{fontWeight: "600"}}>Contact us</span></Link>
+              <Link href="/blog"  ><span style={{fontWeight: "600"}}>Blog</span></Link>
             </Nav.Link>
             <Nav.Link style={{ color: "#fff" }}>
             <Link href="/about" ><span style={{fontWeight: "600"}}>About</span></Link>

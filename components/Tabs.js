@@ -84,7 +84,7 @@ const OurOffice = () => {
   return (
     <Container>
       <Tabs
-        defaultActiveKey="profile"
+        defaultActiveKey="home"
         id="uncontrolled-tab-example"
         style={{ marginBottom: "25px" }}
       >
@@ -93,10 +93,10 @@ const OurOffice = () => {
           {Allcards}
           {/* {Profile} */}
         </Tab>
-        <Tab eventKey="profile" title="Profile">
+        <Tab eventKey="league of legends" title="league of legends">
         {Profile}
         </Tab>
-        <Tab eventKey="contact" title="Contact">
+        <Tab eventKey="fortnite" title="fortnite">
           {Contact}
         </Tab>
       </Tabs>

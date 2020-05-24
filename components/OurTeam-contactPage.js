@@ -54,7 +54,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
@@ -106,7 +106,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
@@ -152,7 +152,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
@@ -204,7 +204,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
@@ -254,7 +254,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
@@ -288,7 +288,7 @@ export default class CenterMode extends Component {
             }}
             className="border-0"
           >
-      <Card.Body
+          <Card.Body
               style={{
                 display: "flex",
                 flexDirection: "column",
@@ -304,7 +304,7 @@ export default class CenterMode extends Component {
                 }}
               >
                 <div>
-                  <Card.Title>Nour Elsayed</Card.Title>
+                  <Card.Title>Jhon Deo</Card.Title>
                   <Card.Subtitle className="mb-2 text-muted">
                     Frontend dev
                   </Card.Subtitle>
