@@ -1,0 +1,115 @@
+.welPage {
+  position: absolute;
+  padding: 0 !important;
+}
+
+.ourVision {
+  color: #fff ;
+  // background-image: url(../assets/background.jpg);
+  // padding: 5rem 3rem 3rem;
+}
+.JoinUs-welPage {
+  // background-image: url(/static/media/background.4bd44909.jpg);
+  color: #fff;
+  align-content: center;
+  // padding: 5rem 3rem 3rem;
+}
+
+.ContactForm {
+  max-width: 32rem;
+  padding: 1.5rem;
+  border: lightgrey 0.5px solid;
+  border-radius: 5px;
+}
+
+.contactFormSection {
+  // background-image: url(../assets/background.jpg);
+  color: #fff;
+  padding: 0;
+}
+
+.mainCardx {
+  height: 640px;
+  max-width: 22rem;
+  border-radius: 25px;
+  margin-top: 20px;
+  // background-image: url("/assets/2.jpg");
+}
+// public/assets/Games/cardCryptoRivia.jpg
+.frontCardx {
+  border-radius: 25px;
+  height: 640px;
+  max-width: 22rem;
+  position: absolute;
+}
+
+.frontCardx p {
+  background-color: #1d2120;
+  font-size: 1.3rem;
+  max-width: 20rem;
+  height: 5rem;
+  border-top: 5px solid gray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backCardx {
+  background-image: url(/assets/background.jpg);
+  transform: rotateY(90deg);
+  height: 640px;
+  max-width: 22rem;
+  text-align: left;
+  box-sizing: border-box;
+  color: #000000;
+  border-radius: 25px;
+  .avatar {
+    position: relative;
+    margin-top: -60px;
+    z-index: 100;
+  }
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    top: 2071px;
+    left: 1144px;
+  }
+p{
+  margin-top: 15%;
+}
+#b {
+  quotes:  "“" ;
+font-size: large;
+}
+}
+.backCardx button {
+  border-radius: 25px;
+  opacity: 1;
+  width: 6rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}
+.backCardx button:hover {
+  background-color: gray;
+  color: #1d2120;
+  animation: text-animation 1s;
+}
+.mainCardx:hover .frontCardx {
+  animation: twirl 0.35s forwards ease-in;
+}
+.mainCardx:hover .backCardx {
+  animation: twirl 0.35s 0.35s forwards ease-in reverse;
+}
+@keyframes twirl {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}
+
+

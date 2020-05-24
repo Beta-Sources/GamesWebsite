@@ -1,0 +1,36 @@
+.contactPage {
+  padding: 0 !important;
+  // background-color: #101222;
+}
+
+.ourOffice {
+  // background-image: url(/assets/background.jpg);
+  color: #fff;
+  align-content: center;
+  height: 220px;
+  
+}
+.cover {
+  background-image: url("/assets/Games/Contact_Us.png");
+  background-size: cover;
+  padding: 200px;
+  color: #fff;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+.cardsContainer{
+  display: flex;
+   flex-wrap: wrap
+}
+.productCards{
+  width: 18rem;
+   border: none 
+}
+@media  (max-width: 780px) {
+  .productCards{
+    width: 100%;
+     border: none 
+  }
+}

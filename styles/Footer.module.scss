@@ -1,0 +1,61 @@
+
+.footer {
+  margin-top: 5rem;
+  color: #fff;
+  // background-color: #343a40;
+  background-color:  rgb(24, 17, 34);
+  text-align: center;
+  max-width: 100%;
+  overflow-x: hidden;
+  padding: 0;
+  padding-top: 15px;
+  .apps{
+    cursor: pointer;
+  }
+  .social{
+    cursor: pointer;
+    margin-left: 0.4rem;
+    color: #7E7E7E;
+  }
+  .linkCol {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  .footerLink{
+    color: #7E7E7E;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  .styledLogo{
+    max-width: 6rem;
+     height: auto;
+     margin-top: 8px;
+
+  }
+  .footerAddress{
+    list-style-type: none;
+    color: #7E7E7E;
+    padding: 0;
+  }
+  .footerTermsCondition{
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    margin-right: 1rem;
+    font-size: small;
+  }
+ 
+ .copyRight {
+  font-size: 0.7rem;
+  padding-top: 2rem;
+}
+}
+
+@media  (max-width: 650px) {
+  .footerLink{
+      display:grid;
+      margin: 10px;
+  }
+}

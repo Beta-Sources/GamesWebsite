@@ -1,0 +1,271 @@
+.aboutPage {
+  padding: 0 !important;
+}
+.mainCard {
+  height: 550px;
+  max-width: 22rem;
+  border-radius: 25px;
+  // background-image: url(/assets/02.jpg);
+}
+.frontCard {
+  border-radius: 25px;
+  height: 550px;
+  max-width: 22rem;
+  position: absolute;
+}
+
+.frontCard p {
+  background-color: #1d2120;
+  font-size: 1.3rem;
+  max-width: 20rem;
+  height: 5rem;
+  border-top: 5px solid gray;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.backCard {
+  // background-image: url(/assets/top-leader/Top_Leaders_BackCard.png);
+  transform: rotateY(90deg);
+  height: 550px;
+  max-width: 22rem;
+  text-align: left;
+  box-sizing: border-box;
+  // color: #000000;
+  border-radius: 25px;
+  // .avatar {
+  //   position: relative;
+  //   margin-top: -60px;
+  //   z-index: 100;
+  // }
+  // .avatar img {
+  //   width: 100px;
+  //   height: 100px;
+  //   -webkit-border-radius: 50%;
+  //   -moz-border-radius: 50%;
+  //   border-radius: 50%;
+  //   top: 2071px;
+  //   left: 1144px;
+  // }
+  // p {
+  //   margin-top: 15%;
+  // }
+  // #b {
+  //   quotes: "“";
+  //   font-size: large;
+  // }
+}
+.backCard button {
+  border-radius: 25px;
+  opacity: 1;
+  width: 6rem;
+  margin: 0.5rem;
+  margin-right: 1rem;
+}
+.backCard button:hover {
+  background-color: gray;
+  color: #1d2120;
+  animation: text-animation 1s;
+}
+.mainCard:hover .frontCard {
+  animation: twirl 0.35s forwards ease-in;
+}
+.mainCard:hover .backCard {
+  animation: twirl 0.35s 0.35s forwards ease-in reverse;
+}
+.cover {
+  background-image: url("/assets/Games/1.png");
+  background-size: cover;
+  padding: 200px;
+  color: #fff;
+  margin-bottom: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.teamCards1 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Nourhan_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards2 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/AbdelRahman_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards3 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Attar_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards4 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Gad_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards5 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Hani_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards6 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Sarah_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards7 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Mahmoud_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards8 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Khaled_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards9 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Joe_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards10 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Rassmy_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards11 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/mr.sabry_big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards12 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Layla_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+.teamCards13 {
+  width: 100%;
+  height: 350px;
+  margin: auto;
+  background-image:url("/assets/cards/Hajar_Big.png");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat
+}
+@keyframes twirl {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(90deg);
+  }
+}
+
+@media (min-width: 300px) {
+  .mainCard {
+    height: 550px;
+    max-width: 22rem;
+    margin-top: 20px;
+  }
+}
+
+.sliderContainer {
+  width: 100%;
+  margin-bottom: 8rem;
+  margin-top: 5rem;
+  //  .slider{
+  //   margin-bottom: 3rem;
+  //  }
+}
+
+@media (max-width: 550px) {
+  .teamCards1{
+    background-image:url("/assets/small-screen-cards/Nourhan-small.png");
+  }
+  .teamCards2{
+    background-image:url("/assets/small-screen-cards/Abdulrahman_small.png");
+  }
+  .teamCards3{
+    background-image: url("/assets/small-screen-cards/Attar.png");
+  }
+  .teamCards4{
+    background-image: url("/assets/small-screen-cards/Gad_Small.png");
+  }
+  .teamCards5{
+    background-image: url("/assets/small-screen-cards/Hani_Small.png");
+  }
+  .teamCards6{
+    background-image: url("/assets/small-screen-cards/Sara_Small.png");
+  }
+  .teamCards7{
+    background-image: url("/assets/small-screen-cards/Mahmoud_Small.png");
+  }
+  .teamCards8{
+    background-image: url("/assets/small-screen-cards/KHaled.png");
+  }
+  .teamCards9{
+    background-image: url("/assets/small-screen-cards/Joe_Small.png");
+  }
+  .teamCards10{
+    background-image: url("/assets/small-screen-cards/Rassmy_Small.png");
+  }
+  .teamCards11{
+    background-image: url("/assets/small-screen-cards/Mr.Sabry.png");
+  }
+  .teamCards12{
+    background-image: url("/assets/small-screen-cards/Layla_small.png");
+  }
+  .teamCards13{
+    background-image: url("/assets/small-screen-cards/Hajar_small.png");
+  }
+}
